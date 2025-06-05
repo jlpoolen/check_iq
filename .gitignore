@@ -1,0 +1,19 @@
+
+---
+
+### ✅ `.gitignore`
+
+```gitignore
+# Rust artifacts
+/target/
+/**/*.rs.bk
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+
+# IQ data files (often huge)
+/*.iq
+/*.iq.gz
+/*.wav
